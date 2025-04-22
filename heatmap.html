@@ -36,6 +36,18 @@
         iframe {
             border: 0;
         }
+        .reference-box {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: #FFC78E;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: 'DFKai-SB', serif; /* 使用標楷體 */
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -48,5 +60,9 @@
         </p>
     </div>
     <iframe src="https://plotdb.io/v/chart/37233" width="100%" height="600px" allowfullscreen="true" frameborder="0"></iframe>
+    <div class="reference-box">
+        圖的顏色分級依據為：<br>
+        人口的最小值、Q1、Q2、平均數、Q3、最大值。
+    </div>
 </body>
 </html>
